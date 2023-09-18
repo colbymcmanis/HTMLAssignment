@@ -7,12 +7,10 @@ footer {
   text-align: center;
 }
 
-
 body {
   font-family: Arial, sans-serif;
   background-color:#F5F5F5;
-  margin: 0;
-  padding: 0;
+  margin: 15px;
 }
 
 p{
@@ -28,6 +26,10 @@ h1{
   text-align: center;
 }
 
+a {
+  display: block;
+  text-align: center; 
+}
 
 
 
