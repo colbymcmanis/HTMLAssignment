@@ -1,7 +1,4 @@
 
-Body{
-  background-color:#F5F5F5;
-}
 
 footer {
   background-color: #333;
@@ -9,6 +6,30 @@ footer {
   padding: 10px 0;
   text-align: center;
 }
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:#F5F5F5;
+  margin: 0;
+  padding: 0;
+}
+
+p{
+padding: 10px;
+text-align: center;
+}
+
+header{
+  padding: 10px;
+}
+h1{
+  margin-top: 15px;
+  text-align: center;
+}
+
+
+
 
 
 
