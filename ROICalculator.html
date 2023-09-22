@@ -75,12 +75,17 @@
         let Revenue = $('#Revenue').val();
         let Expenses = $('#Expenses').val();
 
+        if (!Investment || !Revenue || !Expenses || isNaN(Investment) || isNaN(Revenue) || isNaN(Expenses)) {
+      
+        $('#Result').text('Please enter valid numeric values for all fields.');
+      } else {
+
         let Result =  ((Revenue - Expenses - Investment)/Investment) * 100;
 
         Result = Result.toFixed(2) + '%'
 
         $('#Result').text(Result);
-
+      }
       });
     });
     </script>
