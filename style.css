@@ -31,6 +31,19 @@ a {
   text-align: center; 
 }
 
+#CalculateButton:hover {
+  background-color: #0056b3;
+}
+
+#ToggleButton:hover {
+  background-color: #0056b3;
+}
+
+#Result {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
 
 
 
