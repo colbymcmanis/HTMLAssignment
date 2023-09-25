@@ -56,7 +56,6 @@
     <br>
 
     <p id="Result">
-
     </p>
 
     <br>
@@ -75,14 +74,17 @@
         let Revenue = $('#Revenue').val();
         let Expenses = $('#Expenses').val();
 
-        if (!Investment || !Revenue || !Expenses || isNaN(Investment) || isNaN(Revenue) || isNaN(Expenses)) {
+if (!Investment || !Revenue || !Expenses || isNaN(Investment) || isNaN(Revenue) || isNaN(Expenses)) {
       
-        $('#Result').text('Please enter valid numeric values for all fields.');
-      } else {
+  $('#Result').text('ERROR: Please make sure to enter a valid number in each of the textboxes');
+      
+      } 
+      
+  else {
 
-        let Result =  ((Revenue - Expenses - Investment)/Investment) * 100;
+    let Result =  ((Revenue - Expenses - Investment)/Investment) * 100;
 
-        Result = Result.toFixed(2) + '%'
+      Result = Result.toFixed(2) + '%'
 
         $('#Result').text(Result);
       }
